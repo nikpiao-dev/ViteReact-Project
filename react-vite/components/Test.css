@@ -1,0 +1,28 @@
+.random {
+    display: flex;
+    color: whitesmoke;
+    font-size: 2rem;
+    gap: 2rem;
+    margin-top: 0.5rem;
+    text-transform: uppercase;
+}
+
+.box {
+    margin-top: 1.2rem;
+    width: 100px;
+    border: 2px solid;
+    border-image: linear-gradient(lemonchiffon, mediumslateblue) 1;
+    clip-path: inset(0 round 10px);
+}
+
+.box:hover {
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+
+h1 {
+    margin: 2rem 0 5rem;
+    background-image: linear-gradient(to left, gold, mediumpurple);
+    background-clip: text;
+    color: transparent;
+}
