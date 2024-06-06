@@ -1,0 +1,49 @@
+What is React? 
+
+=> is a JavaScript Library (Not Framework) that is used to easily build and  arrange user interfaces for web applications
+
+=> focuses on building a web applications using these things called Components
+
+
+'Components' = is a self-contained section of a code that functions as a reusable building block
+
+--- For ex. A Lego block. Each block represents a section of reusable parts. We can complicated structures or diarama if we use enough of them and we put them in correct places
+
+
+
+React uses a syntax extension of JavaScript known as JSX (JavaScript XML)
+
+
+JSX allows us to write HTML like code within your JavaScript files
+
+React also utilizes a virtual DOM. It is a lightweight version of a  real DOM of web page
+
+- We can keep track of any changes made to the virtual DOM and only apply that specific change to the real DOM without needing to refresh the entire web page only
+
+
+JS Requirements:
+- arrays
+- classes 
+- objects
+- arrow function (ES6 Feature)
+
+HTML Knowledge is also mandatory
+
+Vite -> a development server. Modern replacement to create react app which is now outdated. 
+
+- npm create vite@latest
+- Enter Project name (my-react-app)
+- select the framework using arrow keys (Vanilla, Vue, React, Preact, Lit, Svelte)
+- Enter and select either Typescript or JavaScript
+
+Last few commands:
+cd project name
+npm install
+npm run dev (start the development server)
+
+public folder and assets folder are very similar but,
+
+files within the assets folder are bundled during the final output
+
+public(assets) folder are not and they are generally available via a URL
+
