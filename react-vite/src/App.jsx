@@ -3,6 +3,9 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Test from '../components/Test'
+import User from '../components/User'
+import Products from '../components/Products'
+import Events from '../components/Events'
 
 function App() {
 
@@ -16,9 +19,12 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>Vite + React App</h1>
       <div>
         <Test></Test>
+        <User></User>
+        <Products></Products>
+        <Events></Events>
       </div>
     </>
   )

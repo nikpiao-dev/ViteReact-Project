@@ -26,3 +26,7 @@ h1 {
     background-clip: text;
     color: transparent;
 }
+
+.items {
+    list-style: none;
+}
