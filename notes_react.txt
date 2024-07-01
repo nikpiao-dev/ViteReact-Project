@@ -43,7 +43,16 @@ npm run dev (start the development server)
 
 public folder and assets folder are very similar but,
 
-files within the assets folder are bundled during the final output
+files within the "assets folder" are bundled during the final output
 
 public(assets) folder are not and they are generally available via a URL
+    ---> public folder contains font, images, videos, svg and not bundled in the final output
 
+
+node modules inside Vite-react-app-folder 
+ ---> contains external libraries and packages that the current project relies on
+
+
+JSX --> JavaScript XML, in react "main.JSX (is the main JavaScript file)"
+
+React works with components 
